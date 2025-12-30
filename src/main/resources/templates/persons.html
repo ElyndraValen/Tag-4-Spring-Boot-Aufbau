@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Persons - Verwaltung</title>
     <style>
         body {
@@ -55,12 +56,12 @@
     <div class="header">
         <div>
             <h1>👥 Person Management System</h1>
-            <p class="welcome"/>
+            <p class="welcome">
                 Willkommen, <strong sec:authentication="name">User</strong>!
                 Rolle: <strong sec:authentication="principal.authorities">ROLE</strong>
             </p>
         </div>
-        <form th:action="@{/ausloggen}" method="post" class="logout-form">
+        <form th:action="@{/logout}" method="post" class="logout-form">
             <button type="submit" class="logout-button">Abmelden</button>
         </form>
     </div>
