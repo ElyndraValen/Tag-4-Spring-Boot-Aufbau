@@ -9,7 +9,7 @@
 -- BCrypt Hash für "admin123"
 INSERT INTO users (username, password, role, enabled, account_non_locked) 
 VALUES ('admin', 
-        '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', 
+        '$2a$10$ubb0Y9V6rqnr0guIveb.C.B11g9WpfyQG3b4elPzG.422tXCEJG6O', 
         'ADMIN', 
         true, 
         true);
@@ -18,7 +18,7 @@ VALUES ('admin',
 -- BCrypt Hash für "user123"
 INSERT INTO users (username, password, role, enabled, account_non_locked) 
 VALUES ('user', 
-        '$2a$10$VEjxo0jq2YT4jYVd1.OB7uONEp0eVGvGg3oMABpRNKF5m2q5F8fMm', 
+        '$2a$10$YS5xnBkTO./uBHU43kRKpOu9wQRz8uKLpmeEizYJwwOGFB2MUxmyO', 
         'USER', 
         true, 
         true);
@@ -27,7 +27,7 @@ VALUES ('user',
 -- BCrypt Hash für "mod123"
 INSERT INTO users (username, password, role, enabled, account_non_locked) 
 VALUES ('moderator', 
-        '$2a$10$8Jmv4h5Lp9bKF2mQ7nNz4OqKvB1xY8wZ5tR3cN6aJ7dH2fG9eL1sK', 
+        '$2a$10$FzKnaE/r7.KCDrSqNiroy.7mUJlaAmCOGHU4fAFpTQbs7hQkw9Uqa', 
         'MODERATOR', 
         true, 
         true);
